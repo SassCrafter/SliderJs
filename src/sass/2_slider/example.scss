@@ -1,0 +1,28 @@
+.slider {
+	&__slide {
+		&--1 {
+			background-image: url('../images/1.jpg');
+		}
+		&--2 {
+			background-image: url('../images/2.jpg');
+		}
+		&--3 {
+			background-image: url('../images/3.jpg');
+		}
+		&--4 {
+			background-image: url('../images/4.jpg');
+		}
+
+		h2 {
+			width: 100%;
+			text-align: center;
+			font-size: 6rem;
+			letter-spacing: 2px;
+			margin-bottom: 2rem;
+			position: absolute;
+			top: 70%;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
